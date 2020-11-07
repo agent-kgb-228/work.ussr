@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let x = prompt('кто пришел');
+        if (x == null) {
+            document.write("отмена");
+        }
+
+        if (x == "админ") {
+            let a = prompt("введите пароль");
+            if (a == 12) {
+                document.write("welcome!!! :)");
+                if (a == null) {
+                    document.write("отмена");
+                }
+            }
+                else {
+                    document.write("вон!!");
+                }
+            
+        }
+        else{
+            document.write("ошибка");
+        }
+
+
+
+    </script>
+</body>
+
+</html>
