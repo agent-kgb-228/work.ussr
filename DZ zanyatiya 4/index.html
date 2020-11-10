@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = prompt('введите число дя перевода')
+        let b = prompt('введите 1');
+        if (a != null) {
+            if (b == 1) {
+                let c = prompt('введите 2');
+                if (c == 2) {
+                    document.write("Байты в Килобайты" + "=" + (a / 1024));
+                    document.write("<br>")
+                    document.write("Килобайты в байты" + "=" + (a * 1024));
+                }
+
+
+                else {
+                    document.write("ошибка");
+                }
+            }
+            else {
+                document.write("ошибка");
+            }
+        }
+        else {
+            document.write("ERROR404");
+        }
+
+
+
+    </script>
+</body>
+
+</html>
