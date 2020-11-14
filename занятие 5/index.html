@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       let ticket = prompt('введите 6-значный билет');
+
+       let n6 = (ticket % 10);
+       let n5 = ((ticket % 100) - n6)/10;
+       let n4 = ((ticket % 1000) - n6 - n5*10)/100;
+       let n3 = ((ticket % 10000) - n6 - n5*10 - n4*100)/1000;
+       let n2 = ((ticket % 100000) - n6 - n5*10 - n4*100 - n3*1000)/10000;
+       let n1 = ((ticket % 1000000) - n6 - n5*10 - n4*100  - n3*1000 - n2*10000)/100000;
+       let left = n1 + n2 + n3;
+       let right = n4 + n5 + n6;
+       if(left == right){
+           document.write("у вас счастливый билет")
+       }
+       else{
+           document.write("у вас не счастливое число")
+       }
+       
+
+   </script> 
+</body>
+</html>
