@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" id="one">
+    <br>
+    <input type="number" id="two">
+    <br>
+    <input type="number" id="three">
+
+    <button onclick="go()">go</button>
+
+    <script>
+        function go(){
+            let one = document.querySelector('#one').value;
+            let two = document.querySelector('#two').value;
+            let three = document.querySelector('#three').value;
+
+            let  max = '';
+            let min = '';
+            if (one <= two || one <= three) {
+                let one = min;
+            }
+            if (one >= two || one >= three) {
+                let one = max;
+            }
+            if (two <= one || two <= three) {
+                let two = min;
+            }
+            if (two >= one || two >= three) {
+                let two = max;
+            }
+            if (three <= one || three <= two) {
+                let three = min;
+            }
+            if (three >= one || three >= two) {
+                let three = max;
+            }
+            document.write(max - min);
+        }
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>
