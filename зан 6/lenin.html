@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="go1()">нажми</button>
+    <button onclick="go2()">нажми</button>
+    <p id="text">Нажми две кнопки</p>
+    <script>
+        let btn1 = false;
+        let btn2 = false;
+        function go1() {
+            btn1 = true;
+            document.querySelector('#text').textContent = "Осталось нажать одну кнопку";
+                if(btn1 && btn2){
+                
+
+                document.querySelector('#text').textContent = "вы молодец";
+                document.querySelector('#text').style.color = 'red';
+                }
+        }
+            function go2() {
+                btn2 = true;
+                document.querySelector('#text').textContent = "Осталось нажать одну кнопку";
+                if(btn1 && btn2){
+                
+
+                document.querySelector('#text').textContent = "вы молодец";
+                document.querySelector('#text').style.color = 'red';
+                }
+
+
+            }
+        
+    </script>
+
+</body>
+
+</html>
