@@ -10,4 +10,4 @@ USSR
 <br><br><br>
 
 
-[![](https://github.com/ruzaharsu/svoe/blob/main/Vk.png)](https://vk.com/ruzahardni)[![](https://github.com/ruzaharsu/svoe/blob/main/telegram.png)](https://t.me/ruzahardni)
+[![](https://github.com/ruzaharsu/svoe/blob/main/Vk.png)](https://vk.com/new_su_2020)[![](https://github.com/ruzaharsu/svoe/blob/main/telegram.png)](https://t.me/ruzahardni)
