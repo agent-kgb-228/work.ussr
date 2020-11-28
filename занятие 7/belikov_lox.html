@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
         #ussr{
             color: black;
         }
@@ -21,7 +22,23 @@
             transition: 12s;
 
         }
-       
+       p{
+           color: red;
+           font-size: 15px;
+           animation: belka 15s infinite;
+       }
+       @keyframes belka{
+           0%{
+            color: red;
+           font-size: 15px;
+           }
+           100%{
+            transform: rotate(3600deg);
+            color: blue;
+           font-size: 100px;}
+               
+
+       }
     </style>
 </head>
 <body>
