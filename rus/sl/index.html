@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let x = 1;
+        let sum = 0;
+
+
+
+        while (x != 0) {
+            x = +prompt("ВВеди число");
+
+            if (x >= 0 || x <= 0) {
+
+                document.write("Введёное число" + x + "<br>")
+                sum = sum + x
+                document.write("Сумма" + sum + "<br>")
+                if(x == 0){
+                    document.write("Всi расчету хана")
+                }
+
+            }
+
+
+
+        }
+    </script>
+</body>
+
+</html>
